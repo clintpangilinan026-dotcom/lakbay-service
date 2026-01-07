@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lakbay Service | Reliable Transport in Luzon</title>
+  <meta name="description" content="Lakbay Service – maaasahang transportation service sa Luzon (North & South). Safe, komportable, at flexible na biyahe. Message or call to book." />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(180deg, #020617, #0f172a);
+      color: #f8fafc;
+    }
+    header {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+    }
+    header p {
+      max-width: 720px;
+      margin: 0 auto 35px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #e5e7eb;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 14px 26px;
+      border-radius: 10px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 25px rgba(0,0,0,.3);
+    }
+    .btn-call {
+      background: #22c55e;
+      color: #022c22;
+    }
+    .btn-chat {
+      background: #38bdf8;
+      color: #020617;
+    }
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 70px 20px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 40px;
+      color: #7dd3fc;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: rgba(2,6,23,.85);
+      border-radius: 18px;
+      padding: 30px 25px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+    }
+    .card p {
+      color: #cbd5f5;
+      font-size: .95rem;
+      line-height: 1.5;
+    }
+    .about {
+      text-align: center;
+      max-width: 850px;
+      margin: auto;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #e5e7eb;
+    }
+    .contact {
+      background: rgba(2,6,23,.9);
+      border-radius: 22px;
+      padding: 50px 30px;
+      text-align: center;
+    }
+    .contact p {
+      font-size: 1.1rem;
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 35px 20px;
+      color: #94a3b8;
+      font-size: .9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Lakbay Service</h1>
+  <p>
+    Maaasahang transportation service sa <strong>Luzon (North & South)</strong>.<br>
+    Safe, komportable, at flexible na biyahe — para sa personal, pamilya, at business travel.
+  </p>
+  <div class="buttons">
+    <a class="btn btn-call" href="tel:09101849047">📞 Call Now</a>
+    <a class="btn btn-chat" href="https://m.me/61586063915890" target="_blank">💬 Chat on Messenger</a>
+  </div>
+</header>
+
+<section>
+  <h2>Serbisyong Inaalok</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>✈️ Airport Transfers</h3>
+      <p>On-time at stress‑free na hatid at sundo papunta o galing airport.</p>
+    </div>
+    <div class="card">
+      <h3>🏙️ City & Long Trips</h3>
+      <p>Local at long-distance travel sa North at South Luzon.</p>
+    </div>
+    <div class="card">
+      <h3>🏠 Hatid‑Sundo</h3>
+      <p>Arawan o one-time service para sa trabaho, pamilya, o events.</p>
+    </div>
+    <div class="card">
+      <h3>🧳 Personal / Business Use</h3>
+      <p>Flexible trips, napag-uusapan ang ruta at schedule.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Bakit Lakbay Service?</h2>
+  <p class="about">
+    Ang <strong>Lakbay Service</strong> ay isang personal at maaasahang transport service gamit ang sariling sasakyan.
+    Nakatuon kami sa kaligtasan, ginhawa, at maayos na pakikipag‑usap sa bawat kliyente.
+    <br><br>
+    👉 <strong>Walang fixed na presyo</strong> — depende sa biyahe at napag-uusapan direkta sa chat o tawag.
+  </p>
+</section>
+
+<section>
+  <h2>Contact & Booking</h2>
+  <div class="contact">
+    <p>📞 <strong>0910‑184‑9047</strong></p>
+    <p>📍 Coverage: <strong>Luzon (North & South)</strong></p>
+    <div class="buttons" style="margin-top:25px;">
+      <a class="btn btn-call" href="tel:09101849047">Call Now</a>
+      <a class="btn btn-chat" href="https://m.me/61586063915890" target="_blank">Message on Facebook</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Lakbay Service. All rights reserved.
+</footer>
+
+</body>
+</html>
